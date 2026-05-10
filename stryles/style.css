@@ -27,6 +27,9 @@
     padding: 18px 35px;
     border-radius: 5px;
 }
+.text-center{
+    text-align: center;
+}
 
 
 /* header styles */
@@ -96,20 +99,23 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
-    box-shadow: 1px solid black;
+    
 }
 .about-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;}
     
 
-.item{}
+
 
 .item-title{
     font-weight: normal;
@@ -126,4 +132,42 @@ main{
     font-weight: bold;
     color:#757575 ;
 }
+/* what I do Section Start */
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description{font-weight: normal; */
+font-size: 18px;
+color:#757575 ;
+}
+
+
+
+
+.skill-title{font-weight: bold; */
+    font-size: 20px;
+    color: #181818; */
+
+}
+
+.skill-description{
+    font-weight: normal;
+    font-size: 18px;
+    color:#757575; 
+    
+}
+.container{display: flex;
+    
+    margin-bottom: 130px;
+}
+
+.container-skill{
+    padding: 30px;
+    gap: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
